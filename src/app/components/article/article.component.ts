@@ -43,7 +43,7 @@ icon: 'share-outline',
 handler: ()=> this.shareArticle()
       },
  { 
- text: inFavorites ? 'Remove Favorites : 'Favorites' ,
+ text: inFavorites ? 'Remove Favorite' : 'favorites' , 
  icon: inFavorites ? 'heart' : 'heart-outline',
  handler: ()=> this.onTogglefavorite()
       },
